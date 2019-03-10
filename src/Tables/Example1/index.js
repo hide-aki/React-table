@@ -6,7 +6,7 @@ import { makeData, Logo, Tips } from "./utils";
 import ReactTable from "react-table";
 import "react-table/react-table.css";
 
-export default class App extends React.Component {
+export default class Example1 extends React.Component {
   constructor() {
     super();
     this.state = {

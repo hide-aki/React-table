@@ -9,7 +9,7 @@ import "react-table/react-table.css";
 
 import './styles.scss';
 
-export default class App extends React.Component {
+export default class Big extends React.Component {
   constructor() {
     super();
     this.state = {
