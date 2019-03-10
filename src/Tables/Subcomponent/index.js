@@ -55,7 +55,6 @@ export default class SubComponent extends React.Component {
                   Header: () => <strong>More</strong>,
                   width: 65,
                   Expander: ({ isExpanded, ...rest }) => {
-                    console.log('restrestrestrestrestrest', rest, isExpanded);
                     return (<div>
                       {isExpanded
                         ? <span>&#x2299;</span>
@@ -73,9 +72,8 @@ export default class SubComponent extends React.Component {
               ]
             }
           ]}
-          defaultPageSize={1}
+          defaultPageSize={10}
           className="-striped -highlight"
-          isExpanded={true}
           SubComponent={({ original }) => <div style={{padding: '10px'}}>{original.lastName}</div>}
           subRows={<div style={{padding: '10px'}}>Hello</div>}
         />
