@@ -1,7 +1,7 @@
 
 import React from "react";
 import { render } from "react-dom";
-import { makeData, Logo, Tips } from "./Utils";
+import { makeData, Logo, Tips } from "./utils";
 
 // Import React Table
 import ReactTable from "react-table";
